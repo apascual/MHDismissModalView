@@ -327,7 +327,7 @@ NSString * const HAS_SCROLLVIEW = @"HAS_SCROLLVIEW";
     panRecognizer.maximumNumberOfTouches = 1;
     panRecognizer.minimumNumberOfTouches = 1;
     if (!options.ignore.ignoreGesture || !options.ignore) {
-        [[self.viewControllers.firstObject view] addGestureRecognizer:panRecognizer];
+//        [[self.viewControllers.firstObject view] addGestureRecognizer:panRecognizer];
     }
     
     
@@ -339,7 +339,7 @@ NSString * const HAS_SCROLLVIEW = @"HAS_SCROLLVIEW";
         panRecognizer.maximumNumberOfTouches = 1;
         panRecognizer.minimumNumberOfTouches = 1;
         if (!options.ignore.ignoreGesture || !options.ignore) {
-            [self.navigationBar addGestureRecognizer:panRecognizer];
+//            [self.navigationBar addGestureRecognizer:panRecognizer];
         }
     }else{
         self.hasScrollView =NO;
